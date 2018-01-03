@@ -56,5 +56,5 @@ group :development, :test do
 end
 
 gem 'thor', '0.20.0'
-
+gem 'devise'
 gem 'bootstrap-sass'
