@@ -12,6 +12,10 @@ class ApplicationController < ActionController::Base
 
   rescue_from Pundit::NotAuthorizedError, with: :user_not_authorized
 
+  def current_user_premium?
+    current_user.role = 'premium'
+  end
+
   private
 
   def user_not_authorized
