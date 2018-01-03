@@ -58,4 +58,5 @@ end
 gem 'thor', '0.20.0'
 gem 'devise'
 gem 'factory_bot_rails'
+gem 'pundit'
 gem 'bootstrap-sass'
